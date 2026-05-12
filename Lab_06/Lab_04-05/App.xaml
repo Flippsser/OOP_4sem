@@ -1,0 +1,17 @@
+<Application x:Class="Lab_04_05.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             StartupUri="LoginWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <!-- Словарь общих ресурсов -->
+                <ResourceDictionary Source="Resources\AppResources.xaml"/>
+                <!-- Тема по умолчанию -->
+                <ResourceDictionary Source="Resources\LightTheme.xaml"/>
+                <!-- Язык по умолчанию -->
+                <ResourceDictionary Source="Strings.ru.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

@@ -1,0 +1,27 @@
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:sys="clr-namespace:System;assembly=System.Runtime">
+    <!-- Основные цвета -->
+    <Color x:Key="PrimaryColor">#2196F3</Color>
+    <Color x:Key="PrimaryDarkColor">#1976D2</Color>
+    <Color x:Key="DangerColor">#E53935</Color>
+    <Color x:Key="SuccessColor">#43A047</Color>
+    <Color x:Key="WarningColor">#FB8C00</Color>
+
+    <!-- Кисти -->
+    <SolidColorBrush x:Key="PrimaryBrush" Color="{StaticResource PrimaryColor}"/>
+    <SolidColorBrush x:Key="PrimaryDarkBrush" Color="{StaticResource PrimaryDarkColor}"/>
+    <SolidColorBrush x:Key="DangerBrush" Color="{StaticResource DangerColor}"/>
+    <SolidColorBrush x:Key="SuccessBrush" Color="{StaticResource SuccessColor}"/>
+    <SolidColorBrush x:Key="WarningBrush" Color="{StaticResource WarningColor}"/>
+
+    <!-- Размеры и отступы -->
+    <sys:Double x:Key="DefaultFontSize">14</sys:Double>
+    <sys:Double x:Key="TitleFontSize">21</sys:Double>
+    <sys:Double x:Key="SectionFontSize">16</sys:Double>
+    <sys:Double x:Key="DefaultCornerRadius">4</sys:Double>
+    <Thickness x:Key="DefaultPadding">8,4</Thickness>
+    <Thickness x:Key="DefaultMargin">3</Thickness>
+    <sys:Double x:Key="ButtonHeight">32</sys:Double>
+    <sys:Double x:Key="ButtonMinWidth">80</sys:Double>
+</ResourceDictionary>
